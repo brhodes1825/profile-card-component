@@ -51,6 +51,8 @@ body {
 
 .picture {
   z-index: 2;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 .stats {
