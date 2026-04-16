@@ -36,10 +36,39 @@ body {
   height: 21rem;
   display: flex;
   flex-direction: column;
-  background-image: url("bg-pattern-card");
   border-radius: 1rem;
+  gap: 0;
 }
 
-/* .upper {
-  
-} */
+.upper {
+  z-index: 1;
+}
+
+.lower {
+  background-color: white;
+  z-index: 1;
+}
+
+.picture {
+  z-index: 2;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+}
+
+.stack1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack3 {
+  display: flex;
+  flex-direction: column;
+}
