@@ -22,6 +22,8 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,3 +31,11 @@ body {
   background-color: var(--blue600);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper {
+  
+}
