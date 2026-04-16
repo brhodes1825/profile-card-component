@@ -36,23 +36,13 @@ body {
   height: 21rem;
   display: flex;
   flex-direction: column;
-  border-radius: 1rem;
-  gap: 0;
+  text-align: center;
 }
 
-.upper {
-  z-index: 1;
-}
-
-.lower {
+.wrapper {
   background-color: white;
-  z-index: 1;
-}
-
-.picture {
-  z-index: 2;
-  border-radius: 50%;
-  border: 2px solid white;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .stats {
