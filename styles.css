@@ -32,10 +32,14 @@ body {
 }
 
 .container {
+  width: 20rem;
+  height: 21rem;
   display: flex;
   flex-direction: column;
+  background-image: url("bg-pattern-card");
+  border-radius: 1rem;
 }
 
-.upper {
+/* .upper {
   
-}
+} */
