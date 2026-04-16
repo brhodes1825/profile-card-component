@@ -1,1 +1,31 @@
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap");
+}
+
+:root {
+  
+  /* Primary */
+--blue600: hsl(185, 75%, 39%);
+--navy950: hsl(229, 23%, 23%);
+--gray500: hsl(227, 10%, 46%);
+
+  /* Neutral */
+--gray100: hsl(225, 10%, 92%);
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+  background-color: var(--blue600);
+}
 
