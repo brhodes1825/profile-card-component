@@ -84,7 +84,7 @@ body {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid var(--gray100);
-  padding: 1rem 3.5rem;
+  padding: 1.5rem 3.5rem;
 }
 
 .stack1 {
@@ -112,7 +112,7 @@ body {
   font-size: .7rem;
   color: var(--gray500);
   margin-top: .75rem;
-  margin-bottom: 2rem;
+/*  margin-bottom: 2rem; */
   text-align: center;
   letter-spacing: 0.1rem;
   font-weight: 100;
