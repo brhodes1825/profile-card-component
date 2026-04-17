@@ -39,8 +39,8 @@ body {
 }
 
 .wrapper {
-  width: 26.25rem;
-  height: 32rem;
+  max-width: 26.25rem;
+  height: 28rem;
   background-color: white;
   border-radius: 1rem;
   overflow: hidden;
