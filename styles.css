@@ -33,14 +33,14 @@ body {
 }
 
 .container {
-  width: 26.25rem;
-  height: 60rem;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
 .wrapper {
+  width: 26.25rem;
+  height: 60rem;
   background-color: white;
   border-radius: 1rem;
   overflow: hidden;
