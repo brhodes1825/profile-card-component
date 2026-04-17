@@ -48,8 +48,8 @@ body {
 }
 
 .header {
-  object-fit: contain;
-  max-width: 26.25rem;
+  object-fit: cover;
+/*  max-width: 26.25rem; */
 }
 
 .content img {
