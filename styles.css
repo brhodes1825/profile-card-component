@@ -29,11 +29,12 @@ body {
   justify-content: center;
   background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
   background-color: var(--blue600);
+  font-family: "Kumbh Sans", sans serif;
 }
 
 .container {
   width: 26.25rem;
-  height: 40rem;
+  height: 60rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -62,6 +63,7 @@ body {
 .stats {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .stack1 {
